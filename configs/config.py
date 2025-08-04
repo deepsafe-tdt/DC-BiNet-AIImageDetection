@@ -23,13 +23,13 @@ AMSGRAD = False
 TRAIN_CATEGORIES = ['car', 'cat', 'chair', 'horse']
 
 # Paths
-BASE_TRAIN_DIR = r"H:\_Data\wang_npr\train_progan\train_4"
-BASE_TEST_DIR = r"H:\_Data\wang_npr\wang_test"
+BASE_TRAIN_DIR = r"path/to/your/train/data"
+BASE_TEST_DIR = r"path/to/your/test/data"
 OUTPUT_DIR = 'training_output'
 
 # Test paths for evaluation
-GENIMAGE_TEST_DIR = r"H:\_Data\GenImage_test\GenImage_new"
-GENIMAGE_OUTPUT_DIR = 'GenImage_new'
+TEST_DIR = r"path/to/your/test/data"
+TEST_OUTPUT_DIR = 'your_test_output_folder_name'
 
 # Model checkpoint names
 BEST_MODEL_AP = 'best_model_ap.pth'
