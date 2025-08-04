@@ -32,8 +32,7 @@ TEST_DIR = r"path/to/your/test/data"
 TEST_OUTPUT_DIR = 'your_test_output_folder_name'
 
 # Model checkpoint names
-BEST_MODEL_AP = 'best_model_ap.pth'
-BEST_MODEL_ACC = 'best_model_acc.pth'
+MODEL_ACC = 'model_acc_4090_win11.pth'
 
 # Data augmentation settings
 AUGMENTATION_CONFIG = {
