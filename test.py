@@ -105,10 +105,10 @@ def main():
     set_random_seed(config.RANDOM_SEED)
 
     # Setup paths and logging
-    output_dir = config.GENIMAGE_OUTPUT_DIR
+    output_dir = config.TEST_OUTPUT_DIR
     os.makedirs(output_dir, exist_ok=True)
     log_file = setup_logging(output_dir)
-    base_test_dir = config.GENIMAGE_TEST_DIR
+    base_test_dir = config.TEST_DIR
     model_path = os.path.join(config.OUTPUT_DIR, config.BEST_MODEL_ACC)
     batch_size = config.BATCH_SIZE
 
