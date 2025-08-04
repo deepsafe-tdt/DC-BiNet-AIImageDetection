@@ -42,16 +42,12 @@ data/
 ### Requirements
 
 - Python 3.8+
-- PyTorch 1.10+
-- CUDA 11.0+ (for GPU support)
+- CUDA 12.4+ (for GPU support)
 
 ### Install dependencies
 
 ```bash
-pip install torch torchvision
-pip install opencv-python pillow numpy scikit-learn
-pip install tqdm matplotlib PyWavelets
-```
+pip install -r requirements.txt
 
 ## 🔧 Configuration
 
