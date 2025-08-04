@@ -41,7 +41,7 @@ data/
 
 ### Requirements
 
-- Python 3.8+
+- Python 3.11+
 - CUDA 12.4+ (for GPU support)
 
 ### Install dependencies
