@@ -84,7 +84,7 @@ Models will be saved in `training_output/` directory after training.
 Test with the trained model:
 
 ```bash
-python test.py --checkpoint training_output/best_model_ap.pth
+python test.py --checkpoint training_output/model_acc_4090_win11.pth
 ```
 
 Test results will show detection performance metrics for each category.
