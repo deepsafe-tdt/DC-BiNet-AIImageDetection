@@ -109,7 +109,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     log_file = setup_logging(output_dir)
     base_test_dir = config.TEST_DIR
-    model_path = os.path.join(config.OUTPUT_DIR, config.BEST_MODEL_ACC)
+    model_path = os.path.join(config.OUTPUT_DIR, config.MODEL_ACC)
     batch_size = config.BATCH_SIZE
 
     # Setup device
